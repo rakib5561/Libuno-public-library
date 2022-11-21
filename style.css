@@ -9,6 +9,7 @@
   margin: 0px 50px;
   padding: 0px 20px;
   max-width: 1350px;
+  margin: 0 auto;
 }
 
 #control-nav {
@@ -38,7 +39,7 @@
 .menu-items {
   list-style-type: none;
   text-decoration: none;
-  margin-left: 580px;
+  margin-left: 300px;
 }
 
 .menu-item {
@@ -55,4 +56,23 @@
 
 .menu-font:hover {
   color: yellow !important;
+}
+
+.banner-part {
+  margin-top: 1px;
+}
+
+.banner-part img {
+  width: 100%;
+}
+
+.banner-des {
+  color: white;
+  width: 100%;
+  background: #f2d13e;
+  padding: 80px 0px;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  margin-bottom: 50px;
 }
