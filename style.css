@@ -129,3 +129,20 @@
   background-color: #f2d13e;
   transition: 0.2s ease-in-out all;
 }
+#footer {
+  width: 100%;
+  margin-bottom: 5px;
+  background-color: #222530;
+}
+
+.footer-content {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.footer-des {
+  color: grey;
+}
+
+.social-icon {
+}
