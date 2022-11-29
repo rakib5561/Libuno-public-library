@@ -81,6 +81,13 @@
   padding: 80px 0px;
   background-color: #f4efef;
 }
+
+.library-information h1 {
+  color: #333745;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
 .box-container {
   width: 100%;
   box-sizing: border-box;
@@ -129,6 +136,7 @@
   background-color: #f2d13e;
   transition: 0.2s ease-in-out all;
 }
+
 #footer {
   width: 100%;
   margin-bottom: 5px;
@@ -140,9 +148,43 @@
   padding: 20px 0px;
 }
 
-.footer-des {
+#book-section {
+  padding: 80px 0px;
+  background-color: #f4efef;
+}
+
+#book-section h1 {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.book-container {
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.single-book {
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.single-book h2 {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+  color: #dab303;
+}
+
+.single-book p {
   color: grey;
 }
 
-.social-icon {
+.footer-des {
+  color: grey;
 }
