@@ -137,6 +137,20 @@
   transition: 0.2s ease-in-out all;
 }
 
+.about-content {
+  padding: 80px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.descr {
+  padding: 30px;
+  font-size: 17px;
+  line-height: 28px;
+  margin-top: 30px;
+}
+
 #footer {
   width: 100%;
   margin-bottom: 5px;
