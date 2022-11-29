@@ -74,5 +74,58 @@
   font-size: 22px;
   text-transform: uppercase;
   font-family: Helvetica;
-  margin-bottom: 50px;
+}
+
+.library-information {
+  width: 100%;
+  padding: 80px 0px;
+  background-color: #f4efef;
+}
+.box-container {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.simple-box {
+  width: 24%;
+  background-color: white;
+  padding: 60px 30px;
+}
+
+.simple-box h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.simple-box h2 {
+  color: #dab303;
+  font-size: 18px;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+.simple-box p {
+  font-size: 16px;
+  text-align: justify;
+  padding-bottom: 27px;
+}
+
+.box-btn {
+  text-transform: uppercase;
+  padding: 13px 28px;
+  font-size: 14px;
+  border: none;
+  background-color: #333745;
+  color: white;
+  font-weight: bold;
+}
+
+.box-btn:hover {
+  color: black;
+  background-color: #f2d13e;
+  transition: 0.2s ease-in-out all;
 }
