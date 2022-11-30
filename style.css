@@ -202,3 +202,22 @@
 .footer-des {
   color: grey;
 }
+
+.about-sectin h1 {
+  text-transform: uppercase;
+  padding: 80px 0px;
+}
+
+.about-des {
+  padding-bottom: 40px;
+}
+
+.about-des h2 {
+  padding: 20px 0px;
+}
+
+.about-des p {
+  line-height: 28px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
