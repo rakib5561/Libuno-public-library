@@ -298,3 +298,16 @@
     width: 220px;
   }
 }
+
+.blog-2022 {
+  padding: 80px 0px;
+}
+
+.blog-2022 h3 {
+  padding: 20px 0px;
+}
+
+.blog-2022 ul li {
+  line-height: 38px;
+  font-size: 18px;
+}
