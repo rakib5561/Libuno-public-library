@@ -221,3 +221,80 @@
   text-align: justify;
   letter-spacing: 1px;
 }
+
+/* Contact us */
+.contactus {
+  margin: 100px 0px;
+  background-color: #111a2b;
+  padding: 120px 150px;
+  border-radius: 10px;
+}
+
+.contactus h1 {
+  color: white;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.contactus span {
+  color: #e02c6d;
+}
+
+.contactus p {
+  color: #6a7076;
+  text-align: center;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.contactform {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform input {
+  width: 100%;
+  padding: 15px 20px;
+  margin-top: 25px;
+  outline: none;
+  font-size: 18px;
+  background-color: #172339;
+  border: 1px solid #2d25a0;
+  border-radius: 5px;
+}
+
+.contactform input[type] {
+  color: white;
+}
+
+.submitbtn {
+  width: 300px;
+}
+.submitbtn input {
+  text-transform: uppercase;
+}
+
+.submitbtn input:hover {
+  cursor: pointer;
+  background: transparent;
+}
+
+/* Mobile View Style */
+@media only screen and (max-width: 480px) {
+  .contactus {
+    width: 100%;
+    padding: 80px 20px;
+  }
+
+  .contactus h1 {
+    font-size: 30px;
+  }
+
+  .submitbtn {
+    width: 220px;
+  }
+}
